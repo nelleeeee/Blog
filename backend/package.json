@@ -1,5 +1,5 @@
 {
-  "name": "Blog",
+  "name": "blog",
   "version": "1.0.0",
   "description": "Blog",
   "main": "index.js",
@@ -22,10 +22,8 @@
     "@babel/node": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
     "nodemon": "^2.0.4"
-},
-"scripts": {
-  // "dep": "prisma1 deploy",
-  // "gen": "prisma1 generate",
-  // "pri": "yarn run dep && yarn run gen",
-  "dev": "nodemon --exec babel-node src/server.js"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  }
 }
